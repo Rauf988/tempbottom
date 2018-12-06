@@ -1,0 +1,223 @@
+.minds{
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+	/*background: lightgray;*/
+	display: flex;
+	justify-content: center;
+}
+
+.pic1 img,.pic2 img, .pic3 img{
+	width: 100%;
+	height: 200px;
+	background-size: cover; 
+
+}
+
+.pic1, .pic2, .pic3{
+	width: 25%;
+	height: 400px;
+	/*background: red;*/
+	
+}
+.pic2{
+	margin: 0px 40px;
+}
+
+.pic1 p, .pic2 p, .pic3 p{
+	text-align: center;
+	padding: 20px;
+	margin-bottom:  0px;
+}
+.pic1 span, .pic2 span, .pic3 span{
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	
+}
+
+.line{
+	width: 40px;
+	height: 5px;
+	background-color: #40CAB4;
+	margin: 0 auto;
+	border-radius: 5px; 
+	margin-bottom: 20px;
+}
+
+.btn{
+	width: 100%;
+	height: 200px;
+	background: #242830;
+	border-radius: 0px;
+}
+.btn button{
+	background: #242830;
+	color: white;
+	padding: 20px;
+	margin-top: 65px;
+}
+.team{
+	margin-top: 50px;
+	width: 100%;
+	height: 550px;
+	display: flex;
+	justify-content: center;
+}
+
+.yaz p{
+	text-align: center;
+	padding: 40px;
+	margin-bottom:  0px;
+	margin-top: 50px;
+
+}
+.logoyaz{
+	width: 240px;
+	height: 50px;
+	background: url(../img/h1-bg.png) no-repeat;
+	margin: 0 auto; 
+}
+.pro1, .pro2, .pro3{
+	width: 25%;
+	height: 400px;
+/*	background: red;*/
+
+}
+.pro2{
+	margin: 0px 40px;
+}
+.pro1 p, .pro2 p, .pro3 p{
+	text-align: center;
+	padding: 20px;
+	margin-top:10px;
+	margin-bottom:  0px;
+}
+.pro1 span, .pro2 span, .pro3 span{
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+}
+.tm1, .tm2, .tm3{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+.pro1 img,.pro2 img, .pro3 img{
+	width: 60%;
+	height: 200px;
+	background-size: cover; 
+	margin: 0 auto
+}
+
+.social{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.social-buttons li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+	background:  black;
+	border-radius: 100%;
+	padding: 8px 12px;
+	margin: 8px;
+}
+.social ul{
+	margin-left: -40px;
+	margin-top: 15px;
+}
+.social a{
+	color : white;
+}
+
+.stayloop{
+	width: 100%;
+	height: 500px;
+	background: url(../img/keyboard-bg.jpg);
+}
+.send{
+
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+.send input{
+	width: 400px;
+	height: 60px;
+	opacity: 0.9;
+	background: none;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+.send button{
+	height: 60px;
+	width: 100px;
+	background: #489088;
+	border: none;
+	color: white;
+	margin-left: 5px; 
+
+}
+.stayloop h1{
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+}
+.bosluq{
+	width: 100%;
+	height: 200px;
+
+}
+
+.contact{
+	width: 100%;
+	height: 300px;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.box span{
+	color: #40CAB4;
+}
+
+.col-md-3{
+	text-align: center;
+	background: lightgray;
+}
+
+.col-md-3 p{
+	color: gray;
+	font-size: 16px;
+}
+
+.foot{
+	width: 100%;
+	height: 150px;
+	background: #242830;
+	text-align: center;
+	font-size: 18px;
+}
+.foot li{
+	color: lightgray;
+	list-style-type: none;
+	display: inline-block;
+}
+.foot p{
+	color: lightgray;
+}
+.foot b{
+	color: white;
+}
+
+.carousel-indicators  li{
+	border: solid gray;
+}
