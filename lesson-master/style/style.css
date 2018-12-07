@@ -1,0 +1,302 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#home{
+	width:100%;
+	height: 800px;
+}
+
+span{
+	margin-top: 150px;
+	margin-left: px;
+	font-size: 50px;
+	display: inline-block;
+	color: black;
+/*	text-align: center;*/
+}
+
+h1{
+	font-size: 50px;
+	display: inline-block;
+	color: #DBD5D5;
+}
+.img{
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	z-index: 1;
+	background: url(../hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+/*.day{
+	text-align: center;
+	color: #010C09;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1;
+	display: block;
+	margin-top: 150px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}*/
+
+.day2{
+	color: #010C09;
+	text-align: center;
+	font-family: sans-serif;
+	display: block;
+	margin-top: 50px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.btn1{
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+	/*margin-left:2px;*/ 
+}
+
+.a1{
+	width: 100px;
+	height: 30px;
+	border: 3px solid red;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #3FCFE5;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	margin: 50px;
+}
+
+ul li .active{
+	width: 300px;
+	height: 60px;
+	padding: 13px 20px;
+	font-size: 21px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border-radius: 6px;
+	background: #31D0A0;
+	color: #fff;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.color{
+	background-color: #f3f5f8;
+}
+
+.salam{
+	margin-top:100px;
+}
+
+.salam1{
+	font-family: sans-serif;
+	font-weight: bold;
+	/**/
+	font-size: 28px;
+	padding: 10px 30px;
+	color: black;
+}
+
+.soz{
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.soz1{
+	color: #A9A9A9;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+/*.page{
+	margin: 0px;
+	padding: 0px;
+}*/
+
+
+.setr{
+	text-align: center;
+	margin: 60px 0 0 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.div1{
+	width: 200px;
+	height: 200px;
+	background: #31D0A0;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+}
+
+.div2{
+	width: 200px;
+	height: 200px;
+	background: #31D0A0;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	/*margin-left: 200px;*/
+	margin-top: 100px;
+}
+
+.div3{
+	width: 200px;
+	height: 200px;
+	background: #31D0A0;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	/*margin-left: 300px;*/
+	margin-top: 100px; 
+}
+
+.rd{
+	display: inline-block;
+	position: relative;
+	right: 175px;
+	top: 340px;
+	z-index: 999;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	float: left;
+	/*margin-top: 340px;*/
+
+}
+
+.bt{
+	display: inline-block;
+	width: 60px;
+	height: 5px;
+	background: #16EFAE;
+	position: absolute;
+	top: 380px;
+	left: 65px;
+}
+
+.spanlr{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-top: 120px;
+}
+
+
+.rd1{
+	display: inline-block;
+	position: relative;
+	right: 175px;
+	top: 340px;
+	/*z-index: 999;*/
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	float: left;
+	/*margin-top: 340px;*/
+
+}
+
+.bt1{
+	display: inline-block;
+	width: 60px;
+	height: 5px;
+	background: #16EFAE;
+	position: absolute;
+	top: 380px;
+	left: 65px;
+}
+
+.spanlr1{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-top: 120px;
+}
+
+.rd2{
+	display: inline-block;
+	position: relative;
+	right: 175px;
+	top: 340px;
+	/*z-index: 999;*/
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	float: left;
+	/*margin-top: 340px;*/
+
+}
+
+.bt2{
+	display: inline-block;
+	width: 60px;
+	height: 5px;
+	background: #16EFAE;
+	position: absolute;
+	top: 380px;
+	left: 65px;
+}
+
+.spanlr2{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-top: 120px;
+}
+
+.fa{
+	padding-top: 50px;
+}
+
+.foto1{
+	width: 650px;
+	height: 450px;
+	background-size: cover;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+}
+
+.bots1{
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.bots{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.spanbots{
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: 3px;
+}
